@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Joey's New Portfolio powered by Hugo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsephora/portfolio.git"
+  },
+  "keywords": [
+    "hugo",
+    "netlify"
+  ],
+  "author": "Joey Sephora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsephora/portfolio/issues"
+  },
+  "homepage": "https://github.com/jsephora/portfolio#readme"
+}
