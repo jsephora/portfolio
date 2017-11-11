@@ -1,0 +1,48 @@
+title = "Joey Sephora"
+baseURL = "/"
+tags = ["portfolio", "web design", "blog"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "joeysephora"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Joey Sephora"
+    author = "Joey Sephora"
+    description = "Full stack UI/UX Designer and Frontend Web Developer based in Australia."
+    logoBig = "/images/logo-big.png"
+    logoSmall = "/images/logo-red.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    twitter = "TomaNistor"
+    linkedin = "joeysephora"
+    github = "jsephora"
+    email = ""
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = true
+    customCSS = true
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
